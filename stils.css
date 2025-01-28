@@ -1,0 +1,183 @@
+body {
+  background-color: rgb(247, 245, 241);
+  h1 {
+    color: rgb(2, 2, 54);
+  }
+  h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif, sans-serif;
+  }
+}
+
+/*прибрали підкреслювання в посиланні*/
+a {
+  color: rgb(2, 2, 54);
+  text-decoration: none;
+}
+/*при наведенні миші з'являється підкреслювання*/
+a:hover {
+  text-decoration: underline;
+}
+/*при клацанні на текст він змінює колір*/
+a:active {
+  color: rgb(56, 11, 139);
+}
+/*якщо посмилання вже відкривали, то колір буде змінений*/
+a:visited {
+  color: grey;
+}
+
+.name {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+.fff {
+  width: 165px;
+  height: 210px;
+
+  border-radius: 28px;
+  box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+  color: darkslategray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* letter-spacing: 3pc;*/
+  /* word-spacing: 4px;*/
+}
+.info-text {
+  margin-left: 15px;
+}
+/*box Mode*/
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+/*.box-model > div {
+    float: left;
+    background: blue;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+    
+    }*/
+.blok {
+  padding: 15px 20px;
+  background: rgb(237, 240, 227);
+  border-radius: 20px;
+}
+.blok h2 {
+  margin-bottom: 10px;
+}
+.blok li {
+  color: darkslategray;
+  margin-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blok h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  color: rgb(2, 2, 54);
+  text-align: center;
+}
+.table {
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-collapse: collapse;
+}
+.table td {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.table tr:nth-child(1) {
+  color: rgb(2, 2, 54);
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+}
+.table tr:nth-child(2) {
+  color: darkslategray;
+  font-size: 16px;
+  text-align: center;
+}
+
+.table tr:nth-child(3) {
+  color: darkslategray;
+  font-size: 16px;
+  text-align: center;
+}
+.table td {
+  border: 1px solid darkslategray;
+}
+/*.link-list {
+  list-style: none;
+  padding: 0;
+}*/
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid darkslategray;
+}
+.contact h3 {
+  text-align: center;
+  color: rgb(2, 2, 54);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.form-group label {
+  margin-top: 5px;
+  display: block;
+  font-size: 14px;
+  color: rgb(2, 2, 54);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid darkslategray;
+  padding: 15px 0 10px;
+  /*видалення чорної рамки при наведенні на строку ввода*/
+  outline: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  /*прозрачний фон*/
+  background: transparent;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+.info-text h4 {
+  margin-bottom: 1px;
+}
+.knopka {
+  margin: 5px;
+  padding: 10px 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+color: rgb(2, 2, 54);
+border: 2px solid darkslategray;
+border-radius: 10px;
+
+/*зміна курсора на ручку*/
+cursor: pointer;
+
+/*псевдоселектор для зміни вигляду кнопки при наведенні*/
+.knopka:hover {
+  opacity: 0.8;
+}
